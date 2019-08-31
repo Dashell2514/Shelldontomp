@@ -1,0 +1,87 @@
+*{
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif
+}
+.font56{
+    background-color: #cacaca;
+}
+body{
+	margin: 0;
+	background: #f9f9f9;
+}
+h2{
+	font-weight: bold;
+	color: #333333;
+	text-align: center;
+}
+.form-register{
+	width: 95%;
+	max-width: 500px;
+	margin: auto;
+	background: white;
+	border-radius: 7px;
+}
+.contenedor-inputs{
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+input{
+	margin-bottom: 15px;
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid gray;
+}
+.input-48{
+	width: 48%;
+}
+.input-100{
+	width: 100%;
+}
+h2{
+	text-align: center;
+}
+.btn-enviar{
+	background: #333333;
+	color: #f9f9f9;
+}
+.tamaño{
+	opacity: 
+	padding-top: 10px;
+	width: 100%;
+}
+div.espace{
+	padding-top: 10px;
+}
+
+div.background {
+  background: url(../imagenes/contaco1.jpg) repeat;
+  border: 2px solid #f9f9f9;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #f9f9f9;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); 
+}
+
+div.transbox h2 {
+  margin: 5%;
+  font-weight: bold;
+  color: #333333;
+}
+iframe{
+	padding: 5px;	
+}
+div a img{
+	width: 5%;
+	height: 5%;
+}
+div a img:hover{
+	transition: 0.5s;
+	filter: invert(5);
+}

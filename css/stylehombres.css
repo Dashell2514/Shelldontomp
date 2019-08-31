@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+        
+}
+.font56{
+    background-color: #cacaca;
+}
+.deslizar{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.deslizar ul{
+    display: flex;
+    padding: 0;
+    width: 200%;
+    animation: change 10s infinite alternate;
+}
+.deslizar li{
+    width: 200%;
+    list-style: none;
+}
+.deslizar img{
+    width: 100%;
+}
+
+@keyframes change{
+    0%{ margin-left: 0; }
+    30%{ margin-left: 0;}
+    /*primera imagen :V*/;
+    35%{ margin-left: -100%; }
+    65%{ margin-left: -100%; }
+    /*segunda imagen :v*/
+}
+  .imag{
+      background-size: 350px;
+    background-image: url(../imagenes/pi0.jpg);
+    text-align: right;
+    background-repeat: no-repeat !important;
+    width: 300px  ;
+    height: 350px  ;
+    cursor: pointer; 
+    border-radius: 15px;
+    border: 3px solid #333333;
+    
+   
+    
+    }
+    .imag2{
+        background-size: 300px;
+        background-image: url(../imagenes/pi1.jpg);
+        text-align: right;
+        background-repeat: no-repeat !important;
+        width: 300px;
+        height: 350px;
+        cursor: pointer;
+        border-radius: 15px;
+    border: 3px solid #333333; 
+        
+        
+        }
+        .imag3{
+            background-size: 295px;
+            background-image: url(../imagenes/pi3.jpg);
+            text-align: right;
+            background-repeat: no-repeat !important;
+            width: 300px;
+            height: 350px;
+            cursor: pointer;
+            border-radius: 15px;
+    border: 3px solid #333333;  
+            
+            
+            }
+            .imag4{
+                background-size: 295px;
+                background-image: url(../imagenes/pi4.jpg);
+                text-align: right;
+                background-repeat: no-repeat !important;
+                width: 300px;
+                height: 350px;
+                cursor: pointer;
+                border-radius: 15px;
+    border: 3px solid #333333; 
+                
+                
+                }
+                .imag5{
+                    background-size: 299px;
+                    background-image: url(../imagenes/pi5.jpg);
+                    text-align: right;
+                    background-repeat: no-repeat !important;
+                    width: 300px  ;
+                    height: 350px  ;
+                    cursor: pointer; 
+                    border-radius: 15px;
+    border: 3px solid #333333;
+                   
+                    
+                    }
+                    .imag6{
+                        background-size: 300px;
+                        background-image: url(../imagenes/pi6.jpg);
+                        text-align: right;
+                        background-repeat: no-repeat !important;
+                        width: 300px;
+                        height: 350px;
+                        cursor: pointer;
+                        border-radius: 15px;
+    border: 3px solid #333333;
+                        
+                        
+                        }
+                        .imag7{
+                            background-size: 345px;
+                            background-image: url(../imagenes/pi7.jpg);
+                            text-align: right;
+                            background-repeat: no-repeat !important;
+                            width: 300px  ;
+                            height: 350px  ;
+                            cursor: pointer;
+                            border-radius: 15px;
+    border: 3px solid #333333;
+                            
+                           
+                            
+                            
+                        }
+                        .imag8{
+                            background-size: 350px;
+                            background-image: url(../imagenes/pi8.jpg);
+                            text-align: right;
+                            background-repeat: no-repeat !important;
+                            width: 300px;
+                            height: 350px;
+                            cursor: pointer;
+                            border-radius: 15px;
+    border: 3px solid #333333;
+                            
+                            
+                            }
+
+
+
+.texto{
+    padding-top: 220px;
+    font-size: 25px;
+    color: black;
+}
+.texto00{
+    font-size: 17px;
+}
+.texto1{
+    color: #333333;
+}
+.texto2{
+    color: #f9f9f9;
+}
+.butcol{
+    background-color: #333333;
+    color: #f9f9f9; 
+    padding: 6px;
+    border-radius: 5px;
+}
+.butcol:hover{
+    background-color: #cacaca; 
+    transition: 0.3s;
+    color: #333333;
+}
+.textcol{
+    color: #333333;
+}
+.pep{
+    font-size: 20px;
+    color: #333333;
+
+}
+.pepa{
+    width:30px;
+    height:20px;
+   float: left;
+}
+.pepa2{
+    border-radius: 10px;
+    width: 100%;
+    height: 55px;;
+}
+.text1{
+    font-size: 18px;
+}
+.container{
+    padding-top: 40px;
+}
+.contorno{
+    background-color: #cacaca;
+}
+.write{
+    background-color: #333333;
+    font-size: 25px;
+    color: #f9f9f9;
+    padding-top: 10px;
+}
+div a img{
+    width: 5%;
+    height: 5%;
+}
+div a img:hover{
+    transition: 0.5s;
+    filter: invert(5);
+}

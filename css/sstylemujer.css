@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+    
+
+    
+    
+}
+.font56{
+    background-color: #cacaca;
+}
+
+
+
+  .imag{
+    background-image: url(../imagenes/mujer1.jpg);
+    text-align: right;
+    background-repeat: no-repeat !important;
+    width: 350px  ;
+    height: 350px  ;
+    cursor: pointer;
+     
+   border-radius: 15px;
+    border: 3px solid #333333;
+    
+   
+    
+    }
+    .imag2{
+        background-image: url(../imagenes/mujer2.jpg);
+        text-align: right;
+        background-repeat: no-repeat !important;
+        width: 350px;
+        height: 350px;
+        cursor: pointer;
+       
+        border-radius: 15px;
+    border: 3px solid #333333; 
+        
+        
+        }
+        .imag3{
+            background-image: url(../imagenes/mujer3.jpg);
+            text-align: right;
+            background-repeat: no-repeat !important;
+            width: 350px;
+            height: 350px;
+            
+            cursor: pointer;
+           
+            border-radius: 15px;
+    border: 3px solid #333333;  
+            
+            
+            }
+            .imag4{
+                background-image: url(../imagenes/mujer4.jpg);
+                text-align: right;
+                background-repeat: no-repeat !important;
+                width: 350px;
+                height: 350px;
+                cursor: pointer;
+                
+                border-radius: 15px;
+    border: 3px solid #333333; 
+                
+                
+                }
+                .imag5{
+                    background-image: url(../imagenes/mujer5.jpg);
+                    text-align: right;
+                    background-repeat: no-repeat !important;
+                    width: 350px  ;
+                    height: 350px  ;
+                    cursor: pointer;
+                    color: #f9f9f9;
+                      
+                    border-radius: 15px;
+    border: 3px solid #333333;
+                   
+                    
+                    }
+                    .imag6{
+                        background-image: url(../imagenes/mujer6.jpg);
+                        text-align: right;
+                        background-repeat: no-repeat !important;
+                        width: 350px;
+                        height: 350px;
+                        cursor: pointer;
+                         
+                        border-radius: 15px;
+    border: 3px solid #333333;
+                        
+                        
+                        }
+                        .imag7{
+                            background-image: url(../imagenes/mujer7.jpg);
+                            text-align: right;
+                            background-repeat: no-repeat !important;
+                            width: 350px  ;
+                            height: 350px  ;
+                            cursor: pointer;
+                            
+                            border-radius: 15px;
+    border: 3px solid #333333;
+                            
+                           
+                            
+                            
+                        }
+                        .imag8{
+                            background-image: url(../imagenes/mujer8.jpg);
+                            text-align: right;
+                            background-repeat: no-repeat !important;
+                            width: 350px;
+                            height: 350px;
+                            cursor: pointer;
+                             
+                            border-radius: 15px;
+    border: 3px solid #333333;
+                            
+                            
+                            }
+
+
+
+.texto{
+    padding-top: 220px;
+    font-size: 25px;
+    color: black;
+
+}
+.butcol{
+    background-color: #333333;
+    color: #f9f9f9; 
+    padding: 6px;
+    border-radius: 5px;
+    
+}
+.textcol{
+    color: #333333;
+}
+.pep{
+    font-size: 20px;
+    color: #333333;
+
+}
+.pepa{
+    width:30px;
+    height:20px;
+   float: left;
+}
+.pepa2{
+    width: 100%;
+    height: 55px;;
+}
+.text1{
+    font-size: 18px;
+}
+.container{
+    padding-top: 10px;
+}
+.butcol{
+    background-color: #333333;
+    color: #f9f9f9; 
+    padding: 6px;
+    border-radius: 5px;
+}
+.butcol:hover{
+    background-color: #cacaca; 
+    transition: 0.3s;
+    color: #333333;
+}
